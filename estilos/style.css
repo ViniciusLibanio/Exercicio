@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+/* Reset de estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 60rem;
+    padding: 0px 20px;
+}
+
+.negrito {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.cinzaClaro {
+    color: grey;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+/*-----------------------------HEADER-----------------------------*/
+
+a {
+    text-decoration: none;
+    margin-left: 16px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-weight: 320;
+    font-size: 1.1em;
+}
+
+h3 {
+    font-size: 2.5rem;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 2px 2px 0px #dee2e6;
+}
+
+#nomeEmpresa {
+    display: block;    
+    font-weight: 450;
+    font-size: 1.28em;
+}
+
+#linksMenu {
+    text-align: right;
+    text-decoration: none;
+}
+.botaoVazado {
+    border: 1px solid rgb(65, 65, 235);
+    border-radius: 5px;
+    color: rgb(65, 65, 235);    
+}
+
+#botaoMenu {
+    padding:8px 13px;  
+}
+
+.botaoVazado:hover {    
+    background-color: #007BFF;
+    transition: ease-in 0.1s;
+    text-decoration: none;
+    color: white;
+}
+/*-----------------------------MAIN-----------------------------*/
+
+#tituloMain {
+    font-weight: 300;
+    font-size: 3.5em;
+    text-align: center;
+    line-height: 1.2;
+    padding-top: 3rem;
+}
+
+.containertxt {
+    max-width: 700px;
+    padding: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 2.8rem;    
+    margin: auto;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#textoTopo {
+    display: block;
+    margin-top: 4px;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cardTopo {
+    display: flex;
+    flex-direction: column;
+    width: 18em;
+    height: 325px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.cardTopo>h2 {
+    background-color: #F7F7F7;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+    font-weight: 450;
+}
+
+.cardCorpo {
+    flex-direction: column;
+    display: flex;
+}
+
+.botaoCheio {
+    border: 1px solid rgb(65, 65, 235);
+    padding:8px 13px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 17px;
+    align-items: center;
+    background-color: #007BFF; 
+    color: white;
+}
+
+.botaoCheio:hover {
+    text-decoration: none;
+    background-color: #0062ca;
+    transition: ease-in 0.1s;
+}
+
+#botaoFree {
+    border: 1px solid rgb(65, 65, 235);
+    padding:8px 13px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 17px;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.containerCard {
+    display: flex; 
+}
+
+/*-----------------------------FOOTER-----------------------------*/
+footer {
+    display: block;
+    max-width: 100%;
+    padding-bottom: 20px;
+    border-top: 1px solid #dee2e6;
+    margin-top: 4rem;
+    padding-top: 50px;
+}
+
+#rodape {    
+    width: 100%x;
+    margin: auto;
+}
+
+#logo {
+    float: left;
+}
+
+#logoBoot {
+    
+    width: 24px;
+    height: 24px;
+}
+
+#ano {
+    font-size: 0.85rem;
+}
+
+#linksRodape {
+    width: 70%;
+    display: flex;
+    font-size: 1rem;
+    float: center;
+    justify-content: space-evenly;    
+    margin-left: 10rem;
+}
+
+#linksRodape h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
