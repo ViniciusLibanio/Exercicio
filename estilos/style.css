@@ -55,6 +55,10 @@ h3 {
     font-weight: 500;
 }
 
+.shadow {
+    box-shadow: 0px 0.125rem 0.25rem rgba(0,0,0, 0.075);
+}
+
 #menu {
     display: grid;
     grid-template-columns: auto auto;
@@ -234,6 +238,10 @@ footer {
     margin-bottom: 5px;
 }
 
+#linksRodape a {
+    color: #828487;
+}
+
 
 
 @media screen and (max-width: 576px) {             /*DISPOSITIVOS MÓVEIS*/
@@ -257,7 +265,7 @@ footer {
 
     .cardTopo {
         width: 100vw;
-        margin-top: 15px;
+        margin: 15px;
     }
 
     #menu {
